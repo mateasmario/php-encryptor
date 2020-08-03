@@ -1,0 +1,55 @@
+body {
+    background-color: #001b2b;
+    font-family: Segoe UI;
+    color: white;
+    margin: 0px;
+}
+
+.navBar {
+    background-color: #00314f;
+    top: 0px;
+    position: sticky;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 5px solid #01507e;
+    height: 34px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-family: Segoe UI;
+    font-size: 22px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0fb1ff;
+}
+
+.styled {
+    border: 1px solid #01507e;
+    background-color: #171717;
+    color: #0192e9;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.styled:hover {
+    background-color: #002846;
+}
+
+.styled:focus {
+    outline: none;
+    background-color: #002846;
+}
+
+p {
+    font-size: 13px;
+    color: #bbbbbb
+}
